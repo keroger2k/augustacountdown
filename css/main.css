@@ -14,7 +14,7 @@ header {
   background-color:#fff;
   opacity: 0.9;
   border-radius: 5px;
-  margin: 50px auto;
+  margin: 10px auto;
 }
 
 header h1 { 
@@ -27,14 +27,20 @@ header h1 {
   background-color: #fff;
   border-radius: 5px;
   margin:0px !important;
-  overflow: auto;
+
 }
 
 .main-content #twitter-feed {
   margin-top: 10px;
+
 }
 
 #post-container { padding: 30px 10px; }
+
+.post {
+  overflow: auto;
+  height: 400px;
+}
 
 /*****************************************************************************/
 /*
