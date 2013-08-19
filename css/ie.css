@@ -1,0 +1,14 @@
+﻿html, body {
+    height: 100%;
+    width:100%;
+}
+
+body {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='/images/leaderboard_background_01.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='/images/leaderboard_background_01.jpg', sizingMethod='scale')";
+}
+
+
+header, .main-content {
+    filter: alpha(opacity=90);
+}

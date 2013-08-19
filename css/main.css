@@ -6,40 +6,51 @@
 
 /* Global Reset */
 
+
+
 body {
-  background-image:url('/images/leaderboard_background_01.jpg')
+    background: url('/images/leaderboard_background_01.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+.container {
+    width: auto !important;
+}
+
 
 header {
-  background-color:#fff;
-  opacity: 0.9;
-  border-radius: 5px;
-  margin: 10px auto;
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin: 10px auto;
 }
 
-header h1 { 
-  text-align: center; 
-  font-family: 'Kameron', serif;
-}
+    header h1 {
+        text-align: center;
+        font-family: 'Kameron', serif;
+    }
 
 .main-content {
-  opacity: 0.9;
-  background-color: #fff;
-  border-radius: 5px;
-  margin:0px !important;
-
+    opacity: 0.9;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0px !important;
 }
 
-.main-content #twitter-feed {
-  margin-top: 10px;
+    .main-content #twitter-feed {
+        margin-top: 10px;
+    }
 
+#post-container {
+    padding: 30px 10px;
 }
-
-#post-container { padding: 30px 10px; }
 
 .post {
-  overflow: auto;
-  height: 400px;
+    overflow: auto;
+    height: 400px;
 }
 
 /*****************************************************************************/
@@ -50,35 +61,37 @@ header h1 {
 
 
 ul.timer {
-    width:700px;
-    margin:0px auto 40px auto;
+    width: 700px;
+    margin: 0px auto 40px auto;
     list-style: none;
     font-size: 2.5em;
     overflow: auto;
 }
-ul.timer li {
-    float: left;
-    margin-right: 10px;
-    background-color: gray;
-    padding: 10px;
-    padding-top: 30px;
-    color: #fff;
-    border-radius: 5px;
-    width: 100px;
-    height: 110px;
-}
-ul.timer li div.kyle {
-    display: block;
-    font-size: .4em;
-    width: 100%;
-}
-ul.timer li span.numbers {
-  font-family: 'Diplomata', cursive;
-}
-ul.timer li span.labels, ul.timer li span.numbers {
-    display: block;
-    width: 100%;
-    text-align: center;
-}
 
+    ul.timer li {
+        float: left;
+        margin-right: 10px;
+        background-color: gray;
+        padding: 10px;
+        padding-top: 30px;
+        color: #fff;
+        border-radius: 5px;
+        width: 100px;
+        height: 110px;
+    }
 
+        ul.timer li div.kyle {
+            display: block;
+            font-size: .4em;
+            width: 100%;
+        }
+
+        ul.timer li span.numbers {
+            font-family: 'Diplomata', cursive;
+        }
+
+        ul.timer li span.labels, ul.timer li span.numbers {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
